@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 h1 {
@@ -9,6 +11,10 @@ h1 {
 
 h3 {
     font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 body {
@@ -23,6 +29,10 @@ button {
     padding: 8px 3em;
 }
 
+.yellow {
+    color: #ffce00;    
+}
+
 .btn-yellow {
     background-color: #ffce00;
     border: 2px solid white;
@@ -33,6 +43,11 @@ button {
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #ffce00;
     color: #ffce00;
+}
+
+.section-header {
+    padding: 5vh;
+    text-align: center; 
 }
 
 /* Navbar start */
@@ -46,7 +61,7 @@ nav {
 
 
 nav:hover {
-    background-color: rgba(5,5,5,0.3);
+    background-color: rgba(5,5,5,0.5);
 }
 
 .top-nav {
@@ -92,6 +107,90 @@ header .button-container {
     margin-top: 1em;
 }
 /* Header end */
+
+/* Services start */
+.services-container {
+    width: 100%;
+}
+
+.single-service-container {
+    display: inline-block;
+    width: 33%;
+}
+
+.single-service-item {
+    text-align: center;
+}
+
+.single-service-item img {
+    max-height: 75px;
+    margin-bottom: 8px;
+}
+
+.services-question {
+    white-space: nowrap;
+    padding: 10vh 0;
+}
+
+.services-question-caption {
+    padding-right: 10vw;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.services-question div {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top; 
+}
+
+.question-left {
+    -webkit-clip-path: polygon(0 0, 63% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 63% 0, 100% 100%, 0% 100%);
+    width: 30vw;
+    background-color: rgba(230,230,230,.4);
+    padding: 5vh 0 5vh 10vw;
+}
+
+.question-left img {
+    max-height: 150px;
+}
+
+.question-right {
+    width: 70vw;
+}
+
+.question-right .button-container {
+    display: block;
+    width: 30%;
+}
+
+.skills-container {
+    width: 100%;
+    display: block;
+    margin-top: 10vh;
+}
+
+.skills-container > div {
+    width: 12%;
+    display: inline-block;
+}
+
+.skills-container figure {
+    display: inline-block;
+    text-align: center;
+    width: 13%;
+    opacity: .7;    
+}
+
+.skills-container figure:hover {
+    opacity: 1;    
+}
+
+.skills-container figure img {
+    max-height: 50px;
+}
+/* Services end */
 
 
 /* Footer start */
