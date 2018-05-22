@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1em;
+    padding: 8px 3em;
+}
+
+.btn-yellow {
+    background-color: #ffce00;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-transparent {
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #ffce00;
+    color: #ffce00;
+}
+
+/* Navbar start */
+nav {
+    margin: 0;
+    padding:10pt;
+    width: 100%;
+    position: fixed;
+    border: 0;
+}
+
+
+nav:hover {
+    background-color: rgba(5,5,5,0.3);
+}
+
+.top-nav {
+    z-index: 1000;
+    text-align: right;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+    padding-right: 10%;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-item > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 17pt;
+}
+
+.menu-item > a:hover {
+    color: #ffce00;
+}
+/* Navbar end */
+
+/* Header start */
+header {
+    height: 100vh;
+    background-image: url('../img/header-laptop-black.jpg');
+    background-size: cover;
+}
+
+.header-content {
+    text-align: center;
+    color: white;
+    padding: 40vh 0;
+}
+
+header .button-container {
+    margin-top: 1em;
+}
+/* Header end */
+
+
+/* Footer start */
+footer {
+    text-align: right;
+    padding: 10pt 10%;
+    background-color: black;
+    color: white;
+}
+/* Footer end */
