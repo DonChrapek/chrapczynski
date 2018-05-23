@@ -40,6 +40,12 @@ button {
 }
 
 .btn-transparent {
+    background: none;
+    border: 2px solid #ffce00;
+    color: black;
+}
+
+.btn-transparent-grey {
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #ffce00;
     color: #ffce00;
@@ -48,6 +54,10 @@ button {
 .section-header {
     padding: 5vh;
     text-align: center; 
+}
+
+.section-header h2 {
+    font-size: 3em;
 }
 
 /* Navbar start */
@@ -116,6 +126,7 @@ header .button-container {
 .single-service-container {
     display: inline-block;
     width: 33%;
+    padding: 2em 0;
 }
 
 .single-service-item {
@@ -127,15 +138,13 @@ header .button-container {
     margin-bottom: 8px;
 }
 
-.services-question {
-    white-space: nowrap;
-    padding: 10vh 0;
-}
-
 .services-question-caption {
     padding-right: 10vw;
-    white-space: normal;
     word-wrap: break-word;
+}
+
+.services-question-caption h1, .services-question-caption h5 {
+    margin-top: 1em;
 }
 
 .services-question div {
@@ -147,9 +156,10 @@ header .button-container {
 .question-left {
     -webkit-clip-path: polygon(0 0, 63% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 63% 0, 100% 100%, 0% 100%);
-    width: 30vw;
-    background-color: rgba(230,230,230,.4);
+    width: 39vw;
     padding: 5vh 0 5vh 10vw;
+    background-color: rgba(230,230,230,.4);
+    opacity: 0.9;
 }
 
 .question-left img {
@@ -157,23 +167,27 @@ header .button-container {
 }
 
 .question-right {
-    width: 70vw;
+    width: 59vw;
+    padding-top: 1em;
 }
 
 .question-right .button-container {
     display: block;
-    width: 30%;
+    margin-top: 1em;
 }
 
 .skills-container {
     width: 100%;
     display: block;
-    margin-top: 10vh;
+    padding: 1em 10vw;
+    background-color: rgba(230,230,230,.4);
+    opacity: 0.9;
 }
 
 .skills-container > div {
     width: 12%;
     display: inline-block;
+    transform: translateY(-60%);
 }
 
 .skills-container figure {
